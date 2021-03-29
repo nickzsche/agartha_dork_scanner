@@ -6,7 +6,7 @@ def Ara(KelimeD,Dosya,Sayi,dil):
         dosya = open(Dosya, 'a+')
         dosya.write(url +"\n")
         dosya.close()
-#**************************************
+#******************************************
 def DorklarSql(Ara,kelime):
     print("İngilizce/English: en")
     print("Türkçe/Turkish: tr")
